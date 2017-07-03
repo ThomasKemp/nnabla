@@ -15,6 +15,20 @@ pip install nnabla
 
 This installs the CPU version of NNabla. GPU-acceleration can be added by installing the CUDA extension with `pip install nnabla-ext-cuda`.
 
+### Setup
+
+<https://nnabla.readthedocs.io/en/latest/python/installation.html>
+
+
+### Getting started
+
+* A number of Jupyter notebook tutorials can be found in the `tutorial` folder.
+  We recommend starting from `by_examples.ipynb` for a first
+  working example in NNabla and `python_api.ipynb` for an introduction into the
+  NNabla API.
+
+* We also provide some more sophisticated examples in the [`examples`](https://github.com/sony/nnabla/tree/master/examples) folder.
+
 
 ## Features
 
@@ -105,16 +119,3 @@ loss.backward()
 
 <https://nnabla.readthedocs.org>
 
-### Setup
-
-<https://nnabla.readthedocs.io/en/latest/python/installation.html>
-
-
-### Getting started
-
-* A number of Jupyter notebook tutorials can be found in the `tutorial` folder.
-  We recommend starting from `by_examples.ipynb` for a first
-  working example in NNabla and `python_api.ipynb` for an introduction into the
-  NNabla API.
-
-* We also provide some more sophisticated examples in the [`examples`](https://github.com/sony/nnabla/tree/master/examples) folder.
